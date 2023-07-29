@@ -1,0 +1,478 @@
+Cloud Computing:
+---------------
+	instead of using local servers,use the group of remote servers to manage,store the application and process data through internet. 
+
+Types of cloud computing:
+------------------------
+	1)Public cloud
+	2)private cloud
+	3)hybrid cloud
+cloud service models:
+---------------------
+	1)IAAS (infrastructure as a service)
+	2)PAAS (platform as a service)
+	3)SAAS (software as a service)
+Advantages and Disadvantages of cloud:
+-------------------------------------
+Adv:	
+	1)lower software cost
+	2)improve performance
+	3)fewer maintance
+	4)instant software update
+	5)increased data safety
+dis:
+	1)must and should have reliable interet connection
+	2)requires a consistant internet connections
+	3)does not work in low speed connection
+
+AWS (Amazon Web Services):
+-------------------------
+ 	aws is a cloud computing service.
+
+Q)why should i learn aws?
+	->fastest growing cloud computing platform on planet.
+	->largst public cloud computing platform on planet.
+	->more organizations are outsorcing their it to aws.
+	->the aws certifications are most popular it certifications right now.
+
+Q)what you will need to learn aws?
+	->an aws free tier account
+		https://www.aws.amazon.com/free
+	->computer/laptop with ssh terminal
+	windows users need to install putty and putty keygen app (or) windows git terminal
+	
+Certifications of AWS:
+---------------------
+associate tier:
+--------------
+	1)certified sloution architect associate
+	2)certified developer associate
+	3)certified sysops administrator associate
+professional Tier:
+-----------------
+	1)certified sloution architect professional
+	2)devops professional
+speciality tier:
+---------------
+	1)security speciality
+	2)bigdata speciality
+	3)advance n/w speciality
+
+NOTE:
+----	You can see the exam bluprint in the aws.amazon.com
+
+Q)what do you know to pass the certified solution architect associate exam?
+
+1)aws global infrastructure
+2)security & identity
+3)management tools
+4)storage
+5)database
+6)compute
+7)network & content delivery
+8)messaging
+9)application services
+10)desktop & app streaming
+11)AI (artificial intelligance)
+12)business productivity
+13)IOT
+14)developer tools
+15)mobile services
+16)analytics
+17)migration
+18)game development
+
+1)aws global infrastructure:
+---------------------------
+	->these are physical machines where your aws is running
+they divided into 
+	->18 regions & 55 availabilty zones currently.
+	->region is a geographical area.each region consist of 2 (or more) availabilty zones.
+	->availability zone is datacenter.
+Q)what is edge location?
+	->edge locations are cdn (content delivery network's) end points for cloud front.
+	->there are many edge locations then regions. currently there are more than 66 edge locations.
+	->edge locatiosn are using for cache servers.
+
+2)security & identity:
+---------------------
+a)IAM(identity access management):
+---------------------------------	
+	every certification required.
+	password authentication,users,group,admin, it's like user management
+b)Inspector:
+-----------
+	inspect the vm.
+c)certificate manager:
+---------------------
+	it will give ssl cerificate.
+d)WAF(web aplication firewall):
+------------------------------
+	application level protection it gives.normal firewall give you network protection, waf gives application protection, it's stop sql injections.
+e)artifacts:
+-----------
+	it will gives documentation in aws console.
+
+3)Management tools:
+------------------
+a)cloud watch:
+-------------
+	to monitor vm. and monitor application
+b)cloud formation:
+-----------------
+	it is convert your infrastructure into code. it is a document describe the cloud environment.
+c)cloud trail:
+-------------
+	monitor your aws console. if you any changes in aws it will maintain user logs.
+d)opswork:
+---------
+	automatic deloying using chef.
+e)config:
+--------
+	it will manage configuration,if you break any configuration it will give warning. if you break any company policy it detects that and give warn.
+f)service catalog:
+-----------------
+	use for large enterprises.
+g)trusted advisor:
+-----------------
+	automatic scan your infrastructure and give you a advice
+
+4)storage:
+---------
+a)S3 (simple storage service):
+-----------------------------
+	->it is a virual disk in the cloud.
+	->we place the objects such as files,images.
+	->it is object based storage not install db,game
+b)Glacier:
+---------
+	->data archival storage service
+	->using for archive of files from s3
+	->you should wait 4 to 5 hours to get back the archive data
+	->it is very low cost
+c)EFS(elastic file service):
+---------------------------
+	it is file based storage and sharing files b/w multiple vm's.
+d)strorage gateway:
+------------------
+	storage gateway is the connect b/w s3 and your datacenter.
+
+5)database:
+----------
+a)RDS(relational database service):
+----------------------------------
+	it has deb servers such as mysql,plsql,orcle,mariadb,etc.
+b)Dynamodb:
+---------
+	it is non-relationsl db.
+c)Redshift:
+----------
+	use in data warehousing. we can do the such as reporing,bigdata.
+d)Elastic cache:
+---------------
+	it is maintain data cache. for fast performing
+
+6)compute:
+---------
+a)Ec2(elastic compute cloud):
+----------------------------
+	basically all ec2 are vm's in cloud.	
+b)Ec2 container service:
+-----------------------
+	it is a highly scalable container management service, that supports docker container.
+c)Elastic beanstalk:
+-------------------
+	this service is used to push the code into amazon cloud it will check the application
+	
+d)Lambda:
+--------
+	AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you.
+e)Light sail:
+------------
+	for deploying wordppress ,joomla services and customized website.
+
+7)network & content delivery:
+----------------------------
+a)VPC(virual private cloud):
+---------------------------
+	it is your private datacenter in aws.
+b)route53:
+---------
+	amazon dns service
+c)cloud front:
+-------------
+	to deliver your content over the n/w.
+d)direct connect:
+----------------
+	it is directly connect to aws datacenter,to push data (or) download data.
+
+8)messaging:
+-----------
+a)SNS(simple notification service):
+----------------------------------
+	notification,email,text messages
+b)SQS(simple queue service):
+---------------------------
+	maintaion your application requests in the queue.
+c)SES(simple email service):
+---------------------------
+	sending and receiving emails.
+
+9)application services:
+----------------------
+a)step functions:
+----------------
+	it is visualize what is going in your aplication.
+b)SWF(simple work flow):
+-----------------------
+
+c)API gateway:
+-------------
+	it allows to monitor & secure we can access logic from backend.
+d)APP stream:
+------------
+	streaming desktop applications to users.
+e)elastic transcoder:
+--------------------
+	it will take care of device comatability such as tv,desktop,mobile.
+
+10)desktop & app streaming:
+--------------------------
+a)work spaces:
+--------------
+	Amazon WorkSpaces is Amazon's new fully managed cloud virtual desktop infrastructure (VDI) service.
+b)app stream 2.0:
+----------------
+	stream desktop application.
+
+11)AI (artificial intelligance):
+-------------------------------
+a)alexa:
+-------
+	it is a amazon voice service
+b)lex:
+c)polly:
+------
+	it text to voice service. covert text into .mp3 format
+d)Machine learning:
+------------------
+	it allows you to predict data based on previous performance.
+e)rekognition:
+-------------
+	if you upload a image it will tell what are in the image. face recognization also avaliabile to compare with db.
+
+12)business productivity:
+------------------------
+a)work docs:
+-----------	
+	to store your work documentation in cloud.
+b)workmail:
+----------
+	sending & receiving email.
+
+13)IOT (Internet of things):
+---------------------------
+
+14)developer tools:
+------------------
+a)code commit:
+-------------
+	same as github.
+b)code build:
+------------
+	to build code such as compile,test,...
+c)code deploy:
+-------------
+	deploy code into ec2 instance.
+d)code pipeline:
+---------------
+	keep trackable of code in different environment such as development,testing,production,...
+
+15)mobile services:
+------------------
+a)mobile hub:
+------------
+	for mobile development
+b)cognito:
+---------
+	easy to maintain signin & signup into your mobile application.
+c)device farm:
+-------------
+	you can test your mobile aplication in aws datacenter.
+d)mobile analytics:
+------------------
+	analysize your mobile app usage
+e)pinpoint:
+----------
+	when to deliver your notification & etc...
+
+16)analytics:
+------------
+a)anthena:
+--------- 
+	it allows run sql quaries in s3.
+b)EMR(elastic map register):
+---------------------------
+	process large amount of data,it might be login hours,indexing,financial markets,emr is used for bigdata.
+c)cloud search:
+--------------
+	it is uesd to increase search capabilities of website or application
+d)kinesis:
+---------
+	it is analysize realtime data. it can capture terabyrte of data like financial transactions, social media streams.
+e)data pipeline:
+---------------
+	for moving data from s3 in objects to RDS,dynamodb. you can setup data pipeline jobs.
+f)quick sight:
+-------------
+	it is a business analytics tool
+
+17)migration:
+------------
+a)snowball:
+----------
+	if you want imprort or export huge amount of disk use this service. for terabytes of data.
+b)DMS(database migration services):
+----------------------------------
+	it will migrate your database to cloud without downtime
+c)SMS(Server migration service):
+-------------------------------
+	it is same as DMS, but here we migrate our server to cloud
+
+18)game development:
+------------------- 
+	it is helpful for gaming application developing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
