@@ -1,0 +1,43 @@
+1.What is cloud?
+==>	
+
+"The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
+The cloud empowers anybody with a web association with get to IT assets on-request, for example, those devoured by cloud-based applications. 
+The fundamental assets accessible are compute, storage, and networking which are all required for a business basic application to convey a 
+full encounter.
+ 
+
+2.Advantages of cloud?
+==>	
+
+a. Easy and 24*7 Availability
+b. Cost effectiveness
+c. Flexibility in Capacity
+d. Data security
+e. Easily Manageable
+f. Automated Updates on Software
+
+3.Types of cloud?
+==>
+
+1: Public Cloud
+Public cloud is open to all to store and access information via the Internet using the pay-per-usage method.
+Eg: Amazon elastic compute cloud (EC2), IBM SmartCloud Enterprise, Microsoft, Google App Engine, Windows Azure Services Platform.
+
+2: Private Cloud
+Private cloud is also known as an internal cloud or corporate cloud. It is used by organizations to build and manage their own data centers internally or 
+by the third party. 
+Eg: Jio
+
+3: Hybrid Cloud
+Hybrid Cloud is a combination of the public cloud and the private cloud. we can say Hybrid Cloud is a combination of both Public cloud and Private Cloud. 
+Eg: Google Application Suite (Gmail, Google Apps, and Google Drive), Office  365 (MS Office on the Web and One Drive), Amazon Web Services.
+
+
+4.What is EC2?
+==>
+
+Amazon Elastic Compute Cloud (EC2) is a part of Amazon.com's cloud-computing platform, Amazon Web Services (AWS), that allows users to rent virtual computers on which 
+to run their own computer applications.Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy applications faster. 
+You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage. 
+Amazon EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity, reducing your need to forecast traffic.
