@@ -64,3 +64,37 @@ Example:2
 Network packets dont understand names.
 Network interfaces tries to resolve the name by its ip address and generally this information (name to ip) is present in DNS servers
 exampe: ping <Browser Name>
+
+
+
+## 𝐇𝐨𝐰 𝐀𝐖𝐒 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 𝐖𝐨𝐫𝐤𝐬
+
+Diving into the intricacies of AWS network architecture, we find the foundation of a highly available, scalable, and secure cloud ecosystem. Here's a snapshot:
+
+🌎 Global Infrastructure: AWS boasts a global network of data centers and availability zones, ensuring fault tolerance and high availability.
+
+🌍 Regions: The world is divided into AWS geographic regions, each housing multiple availability zones.
+
+🏢 Virtual Private Cloud (VPC): VPC forms the core of AWS networking, allowing for isolated virtual networks within the cloud.
+
+🔵 Subnets: Within VPCs, subnets segment IP address spaces for logical resource isolation.
+
+🌐 Internet Gateway: This VPC component facilitates communication between public subnets and the internet.
+
+🌐 NAT Gateway/NAT Instance: For private subnet resources to access the internet securely.
+
+⚖ Elastic Load Balancing (ELB): Ensures high availability and fault tolerance by distributing incoming traffic across multiple instances.
+
+🌐 Route 53: AWS's DNS web service handles domain registration, DNS routing, and health monitoring.
+
+🔒 Virtual Private Network (VPN): Enables secure communication between on-premises networks and VPCs.
+
+🛡 Security Groups and Network ACLs: Enhance security by controlling inbound and outbound traffic.
+
+🤝 VPC Peering: Connects multiple VPCs, enabling direct communication.
+
+🌐 Transit Gateway: Simplifies network management by providing centralized connectivity for VPCs and on-premises networks.
+
+🔗 AWS PrivateLink: Offers private connectivity without exposing traffic to the public internet.
+
+This robust architecture balances flexibility, reliability, and scalability while prioritizing security and compliance, empowering businesses to confidently deploy applications in the cloud. ☁
